@@ -1,0 +1,12 @@
+public class sumOfDigit {
+    public static void main(String[] args) {
+        int ans = The_sumOfDigit(1234);
+        System.out.println(ans);
+    }
+    static int The_sumOfDigit(int n){
+        if(n==0){
+            return 0;
+        }
+        return  (n%10) + The_sumOfDigit(n/10);
+    }
+}
