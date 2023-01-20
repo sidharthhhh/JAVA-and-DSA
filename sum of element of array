@@ -1,0 +1,14 @@
+public class Arrayss {
+    public static void main(String[] args) {
+        // problem 1
+
+        float[] marks = {23.3f, 43.4f, 43.5f, 43.4f, 43.4f, 43.4f};
+        
+        float sum =0;
+        for(float elements: marks){
+            sum = sum+ elements;
+        }
+
+        System.out.println("the value of sum is" + sum);
+        }
+}
